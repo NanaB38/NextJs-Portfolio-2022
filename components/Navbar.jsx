@@ -29,7 +29,7 @@ const Navbar = () => {
                 Accueil
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/#About'>
               <a className='ml-10 text-sm uppercase hover:border-b hover:scale-125'>
                 A propos
               </a>

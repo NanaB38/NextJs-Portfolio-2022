@@ -23,21 +23,24 @@ const Main = () => {
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
               Je suis une développeuse full-stack Javascript junior et j'adore{' '}
               <br />
-              créer des contenus web beaux et fonctionnels! <br /> Actuellement,
-              Je suis en formation à la{' '}
+              créer des contenus responsive, beaux et fonctionnels !{' '}
+              <span className='shadow-md shadow-gray-300'>📱</span>{' '}
+            </p>
+            <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
+              Actuellement en formation à la{' '}
               <Link href='https://www.wildcodeschool.com/fr-FR/campus/lyon'>
                 <a className='text-[#3da7e4] hover:text-lg' target='_blank'>
-                  Wild Code School{' '}
+                  Wild Code School
                 </a>
               </Link>
-              et je souhaite poursuivre ... un contrat d'apprentissage ou un stage 
+              , je souhaite poursuivre mes études avec une alternance ou un
+              stage.
             </p>
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
               I’m a Junior Javascript FullStack Developer and I love building
               nice digital experiences! <br />
-              Currently, I’m focused on building responsive websites and web
-              applications and I'm learning back-end with Node js and data
-              manipulation.
+              Currently, I’m studying in Wild Code School and I'm focused on
+              finding a sandwich degree or internship.
             </p>
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
