@@ -22,7 +22,7 @@
     @apply cursor-pointer;
   }
   button {
-    @apply cursor-pointer shadow-md shadow-gray-50 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#509dff] text-white;
+    @apply cursor-pointer shadow-md shadow-gray-50 rounded-xl uppercase bg-gradient-to-r from-[#40b9ffc9] to-[#69c8ff] text-white;
   }
   nav {
     @apply opacity-100;

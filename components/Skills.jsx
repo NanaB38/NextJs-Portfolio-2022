@@ -4,11 +4,15 @@ import styles from '../styles/home.module.css';
 
 const Skills = () => {
   return (
-    <div id={styles.skills} className='w-full lg:h-screen px-10'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+    <div id={styles.skills} className='w-full lg:h-screen px-10 py-12'>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center '>
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes compétences tech
         </p>
+        <p className='text-md tracking-widest uppercase text-gray-300 opacity-60'>
+          Skills
+        </p>
+
         <h2 className='py-4'>Langages et Frameworks</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>

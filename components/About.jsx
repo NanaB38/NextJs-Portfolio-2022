@@ -4,7 +4,10 @@ import styles from '../styles/home.module.css';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen px-10 flex items-center'>
+    <div
+      id='about'
+      className='w-full md:h-screen px-10 py-12 flex items-center'
+    >
       <div className={styles.aboutme}>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
           <div className='col-span-2'>
