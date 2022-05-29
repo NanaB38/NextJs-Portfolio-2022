@@ -24,4 +24,7 @@
   button {
     @apply cursor-pointer shadow-md shadow-gray-50 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#509dff] text-white;
   }
+  nav {
+    @apply opacity-100;
+  }
 }

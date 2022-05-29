@@ -4,11 +4,11 @@ import styles from '../styles/home.module.css';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen px-10 flex items-center'>
       <div className={styles.aboutme}>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
           <div className='col-span-2'>
-            <p className='uppercase text-xl tracking-widest text-[#309bda]'>
+            <p className='uppercase text-xl font-extrabold tracking-widest text-[#40B9FF]'>
               A propos de moi
             </p>
             <h2 className='py-4'>Qui suis-je ? </h2>
@@ -29,14 +29,14 @@ const About = () => {
               deserunt mollit anim id est laborum
             </p>
             <p className='py-2 text-gray-300 underline cursor-pointer'>
-              Jettez un oeil à mes projets !
+              Jettez un oeil à mes projets ! 🔍
             </p>
           </div>
           <div className='w-60 h-80 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image
-              className='rounded-xl'
+              className='rounded-xl brightness-90'
               src='/../public/assets/pic.jpg'
-              width={170}
+              width={150}
               height={200}
               alt='photo-of-me'
             />

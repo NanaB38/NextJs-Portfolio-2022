@@ -14,10 +14,10 @@ const Main = () => {
           </p>
           <h1 className='py-4'>
             Bonjour, je m'appelle{' '}
-            <span className='text-[#309bda]'> Anna Boval</span>
+            <span className='text-[#40B9FF]'> Anna Boval</span>
           </h1>
           <h2 className='py-3 text-gray-300'>
-            Développeuse web / mobile junior 👩‍💻
+            Développeuse Web et Mobile junior 👩‍💻
           </h2>
           <div className='mt-5'>
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
@@ -29,18 +29,22 @@ const Main = () => {
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
               Actuellement en formation à la{' '}
               <Link href='https://www.wildcodeschool.com/fr-FR/campus/lyon'>
-                <a className='text-[#3da7e4] hover:text-lg' target='_blank'>
+                <a
+                  className='text-[#3da7e4] font-bold hover:text-lg'
+                  target='_blank'
+                >
                   Wild Code School
                 </a>
               </Link>
-              , je souhaite poursuivre mes études avec une alternance ou un
-              stage.
+              , je souhaite poursuivre mes études avec une{' '}
+              <span className='font-bold'>alternance</span> ou un{' '}
+              <span className='font-bold'>stage</span>.
             </p>
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
               I’m a Junior Javascript FullStack Developer and I love building
               nice digital experiences! <br />
               Currently, I’m studying in Wild Code School and I'm focused on
-              finding a sandwich degree or internship.
+              finding a sandwich degree or an internship.
             </p>
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
