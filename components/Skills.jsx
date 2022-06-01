@@ -4,7 +4,7 @@ import styles from '../styles/home.module.css';
 
 const Skills = () => {
   return (
-    <div id={styles.skills} className='w-full lg:h-screen px-10 py-12'>
+    <div id='skills' className='w-full lg:h-screen px-10 py-20'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center '>
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes compétences tech
@@ -13,15 +13,15 @@ const Skills = () => {
           Skills
         </p>
 
-        <h2 className='py-4'>Langages et Frameworks</h2>
+        <h2 className='py-6'>Langages et Frameworks</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
                   src='/../public/assets/skills/html5.png'
-                  width='64px'
-                  height='64px'
+                  width='65px'
+                  height='65px'
                   alt='/'
                 />
               </div>
@@ -35,8 +35,8 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image
                   src='/../public/assets/skills/js.png'
-                  width='130px'
-                  height='64px'
+                  width={350}
+                  height={200}
                   alt='/'
                 />
               </div>
@@ -78,7 +78,7 @@ const Skills = () => {
 
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='m-auto mt-6'>
                 <Image
                   src='/../public/assets/skills/nodejs.png'
                   width='110px'
@@ -108,7 +108,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='m-auto mt-3'>
                 <Image
                   src='/../public/assets/skills/github-50.png'
                   width='60px'
@@ -123,7 +123,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='m-auto mt-5'>
                 <Image
                   src='/../public/assets/skills/Tailwind_css.png'
                   width='70px'

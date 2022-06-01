@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
-      <div className='fixed w-full h-20 bg-[#112D47] shadow-lg shadow-gray-500 z-[100]'>
+      <div className='fixed w-full h-20 bg-[#112D47] bg-opacity-70 shadow-lg shadow-gray-500 z-[100]'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <Image
             src='/../public/assets/logoAB.png'
@@ -26,27 +26,27 @@ const Navbar = () => {
           <div>
             <nav className='hidden md:flex'>
               <Link href='/'>
-                <a className='ml-10 text-sm uppercase hover:border-b hover:scale-125'>
+                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
                   Accueil
                 </a>
               </Link>
-              <Link href='/#About'>
-                <a className='ml-10 text-sm uppercase hover:border-b hover:scale-125'>
+              <Link href='/#about'>
+                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
                   A propos
                 </a>
               </Link>
-              <Link href='/'>
-                <a className='ml-10 text-sm uppercase hover:border-b hover:scale-125'>
+              <Link href='/#skills'>
+                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
                   Compétences
                 </a>
               </Link>
-              <Link href='/'>
-                <a className='ml-10 text-sm uppercase hover:border-b hover:scale-125'>
+              <Link href='/#projects'>
+                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
                   Projets
                 </a>
               </Link>
-              <Link href='/'>
-                <a className='ml-10 text-sm uppercase hover:border-b hover:scale-125'>
+              <Link href='/#contact'>
+                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
                   Contact
                 </a>
               </Link>
@@ -95,21 +95,22 @@ const Navbar = () => {
                   <Link href='/'>
                     <li className='py-4 text-sm hover:text-base'>Accueil</li>
                   </Link>
-                  <Link href='/'>
+                  <Link href='/#about'>
                     <li className='py-4 text-sm hover:text-base'>A propos</li>
                   </Link>
-                  <Link href='/'>
+                  <Link href='/#skills'>
                     <li className='py-4 text-sm hover:text-base'>
                       Compétences
                     </li>
                   </Link>
-                  <Link href='/'>
+                  <Link href='/#projects'>
                     <li className='py-4 text-sm hover:text-base'>Projets</li>
                   </Link>
-                  <Link href='/'>
+                  <Link href='/#contact'>
                     <li className='py-4 text-sm hover:text-base'>Contact</li>
                   </Link>
                 </ul>
+
                 <div className='pt-40 mt-20'>
                   <p className='uppercase tracking-widest text-[#37B6FF]'>
                     Contactez-moi !
