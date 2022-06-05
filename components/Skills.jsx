@@ -1,22 +1,21 @@
 import Image from 'next/image';
 import React from 'react';
-import styles from '../styles/home.module.css';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen px-10 py-20'>
+    <div id='skills' className='w-full lg:h-screen px-8 py-20'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center '>
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes compétences tech
         </p>
         <p className='text-md tracking-widest uppercase text-gray-300 opacity-60'>
-          Skills
+          Hard skills
         </p>
 
-        <h2 className='py-6'>Langages et Frameworks</h2>
+        <h2 className='py-10'>Langages et Frameworks</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center '>
               <div className='m-auto'>
                 <Image
                   src='/../public/assets/skills/html5.png'
@@ -31,7 +30,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center mt-2'>
               <div className='m-auto'>
                 <Image
                   src='/../public/assets/skills/js.png'
@@ -46,7 +45,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center mt-1'>
               <div className='m-auto'>
                 <Image
                   src='/../public/assets/skills/React-icon.png'
@@ -64,21 +63,36 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='/../public/assets/skills/next.png'
-                  width='72px'
-                  height='72px'
+                  src='/../public/assets/skills/Tailwind_css.png'
+                  width='70px'
+                  height='50px'
                   alt='/'
                 />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Next (React)</h3>
+              <div className='flex flex-col items-center justify-center mt-5'>
+                <h3>Tailwind</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto mt-5'>
+                <Image
+                  src='/../public/assets/skills/Cypress.png'
+                  width='170px'
+                  height='55px'
+                  alt='/'
+                />
+              </div>
+              <div className='flex flex-col items-center justify-center mt-4'>
+                <h3>Cypress</h3>
               </div>
             </div>
           </div>
 
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto mt-6'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center mt-4'>
+              <div className='m-auto '>
                 <Image
                   src='/../public/assets/skills/nodejs.png'
                   width='110px'
@@ -86,13 +100,13 @@ const Skills = () => {
                   alt='/'
                 />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center mt-2'>
                 <h3>Node js</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center '>
               <div className='m-auto'>
                 <Image
                   src='/../public/assets/skills/png_mysql.png'
@@ -101,7 +115,7 @@ const Skills = () => {
                   alt='/'
                 />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center mt-4'>
                 <h3>My SQL</h3>
               </div>
             </div>
@@ -116,23 +130,8 @@ const Skills = () => {
                   alt='/'
                 />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center mt-2'>
                 <h3>Git / Github</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto mt-5'>
-                <Image
-                  src='/../public/assets/skills/Tailwind_css.png'
-                  width='70px'
-                  height='50px'
-                  alt='/'
-                />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Tailwind</h3>
               </div>
             </div>
           </div>

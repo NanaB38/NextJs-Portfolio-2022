@@ -8,7 +8,7 @@ import styles from '../styles/home.module.css';
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center py-16'>
+    <div id='home' className='w-full h-screen text-center py-'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-base tracking-widest mt-40'>
@@ -52,10 +52,10 @@ const Main = () => {
               <span className='font-bold'>stage</span>.
             </p>
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
-              Hi, I’m a Junior full-stack Web Developer and I love building nice
-              digital experiences! <br />
+              Hi, I’m a junior full-stack Web Developer and I love building
+              beautiful and responsive digital projects! <br />
               Currently, I’m studying in Wild Code School and I'm focused on
-              finding a sandwich degree or an internship.
+              finding a sandwich degree or an internship from September.
             </p>
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>

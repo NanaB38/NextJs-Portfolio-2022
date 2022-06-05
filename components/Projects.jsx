@@ -8,7 +8,7 @@ import qotqotImg from '../public/assets/projects/qotqot.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full lg:h-screen px-10 pt-20'>
+    <div id='projects' className='w-full lg:h-screen px-8 pt-20'>
       <div className=' m-auto max-w-[1240px]'>
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes Projets

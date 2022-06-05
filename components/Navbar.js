@@ -1,32 +1,75 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/home.module.css';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
+  const router = useRouter();
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    if (
+      router.asPath === '/property' ||
+      router.asPath === '/crypto' ||
+      router.asPath === '/netflix' ||
+      router.asPath === '/twitch'
+    ) {
+      setNavBg('transparent');
+      setLinkColor('#ecf0f3');
+    } else {
+      setNavBg('#ecf0f3');
+      setLinkColor('#1f2937');
+    }
+  }, [router]);
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow);
+  }, [shadow]);
+
   return (
-    <div className={styles.navbar}>
-      <div className='fixed w-full h-20 bg-[#112D47] bg-opacity-70 shadow-lg shadow-gray-500 z-[100]'>
+    <div
+      className={
+        shadow
+          ? 'fixed w-full shadow-lg z-[100] shadow-gray-400'
+          : 'fixed w-full z-[100]'
+      }
+    >
+      <div className='bg-[#112D47] h-20 bg-opacity-70 z-[100]'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Image
-            src='/../public/assets/logoAB.png'
-            alt='logoAnnaBoval'
-            width={170}
-            height={48}
-          />
+          <Link href='/'>
+            <Image
+              src='/../public/assets/logoAB.png'
+              alt='logoAnnaBoval'
+              width={170}
+              height={48}
+              className='cursor-pointer'
+            />
+          </Link>
           <div>
             <nav className='hidden md:flex'>
               <Link href='/'>
-                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
+                <a
+                  onClick={() => setNav(false)}
+                  className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'
+                >
                   Accueil
                 </a>
               </Link>
@@ -51,6 +94,7 @@ const Navbar = () => {
                 </a>
               </Link>
             </nav>
+
             <div onClick={handleNav} className='md:hidden cursor-pointer'>
               <AiOutlineMenu size={25} />
             </div>
