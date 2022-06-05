@@ -1,10 +1,10 @@
 import React from 'react';
-// import netflixImg from '../public/assets/projects/netflix.jpg';
 import ProjectItem from './ProjectItem';
 import tokyoexpressImg from '../public/assets/projects/tokyoexpress.png';
 import cinechillImg from '../public/assets/projects/cinechill.png';
 import jetreeImg from '../public/assets/projects/JeTree.png';
 import qotqotImg from '../public/assets/projects/qotqot.png';
+import codeImg from '../public/assets/projects/code.jpg';
 
 const Projects = () => {
   return (
@@ -33,6 +33,11 @@ const Projects = () => {
             title='JeTree'
             backgroundImg={jetreeImg}
             projectUrl='/jetree'
+          />
+          <ProjectItem
+            title='Property Finder'
+            backgroundImg={codeImg}
+            projectUrl='/porfolio'
           />
           <ProjectItem
             title='QotQot (en cours)'

@@ -1,23 +1,23 @@
 import Image from 'next/image';
 import React from 'react';
-import contact from '../public/assets/contact.jpeg';
+import codeImg from '../public/assets/projects/code.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const Portfolio = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
+        <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={contact}
+          src={codeImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finder</h2>
+          <h2 className='py-2'>Mon Portfolio</h2>
           <h3>React JS (Next) / Tailwind / Vercel</h3>
         </div>
       </div>
@@ -29,8 +29,12 @@ const property = () => {
             Cette appli a été construite en mai 2022 en React JS et les
             Frameworks Next et Tailwind. Il a été déployé avec Vercel.
           </p>
-          <div className='py -inset-5 flex justify-center'>
-            <button className='px-8 py-2 mt-4'>Voir le code </button>
+          <div className='flex justify-center'>
+            <button className='px-8 py-2 mt-4 py -inset-5 hover:scale-105'>
+              <Link href='https://github.com/NanaB38/Portfolio-Nextjs-2022'>
+                <a target='_blank'>Voir le code</a>
+              </Link>
+            </button>
           </div>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-300 rounded-xl p-4'>
@@ -56,11 +60,11 @@ const property = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'> Retour</p>
+          <p className='cursor-pointer hover:scale-110'> ⬅️ Retour</p>
         </Link>
       </div>
     </div>
   );
 };
 
-export default property;
+export default Portfolio;
