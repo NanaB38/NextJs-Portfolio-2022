@@ -59,18 +59,35 @@ const Main = () => {
             </p>
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <FaLinkedinIn />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <FaGithub />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <AiOutlineMail />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <BsFillPersonLinesFill />
-            </div>
+            <Link href='https://www.linkedin.com/in/anna-boval-1a5407136/'>
+              <a
+                className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                target='_blank'
+              >
+                <FaLinkedinIn />
+              </a>
+            </Link>
+            <Link href='https://github.com/NanaB38'>
+              <a
+                className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                target='_blank'
+              >
+                <FaGithub />
+              </a>
+            </Link>
+            <Link href='/#contact'>
+              <a className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail />
+              </a>
+            </Link>
+            <Link href='https://drive.google.com/file/d/1mOfOJGDl9b5dHru0PRIq4uWVKCj2w2CL/view'>
+              <a
+                className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                target='_blank'
+              >
+                <BsFillPersonLinesFill />
+              </a>
+            </Link>
           </div>
         </div>
       </div>

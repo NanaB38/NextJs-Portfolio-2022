@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/home.module.css';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
             </p>
             <h2 className='py-4'>Qui suis-je ? </h2>
             <p className='py-2 text-gray-300'>
-              Développeuse curieuse, créative et solidaire 👩‍💻
+              Développeuse curieuse, créative et rigoureuse 👩‍💻
             </p>
             <p className='py-2 text-gray-300'>
               Ancienne conseillère bancaire, j'ai décidé il y a plusieurs mois
@@ -29,22 +30,24 @@ const About = () => {
               La formation est basée sur la pratique et le développement de
               projets en Javascript/React pour la partie front-end et Node.js
               pour le back-end. J'apprends également à manipuler des bases de
-              données avec Express et à tester le code avec cypress.
+              données avec MySql et Express et à tester le code avec Cypress.
             </p>
             <p className='py-2 text-gray-300'>
-              De nature curieuse et technophile, j'ai toujours eu un attraît
-              pour l'univers digital. <br /> Par ailleurs, j'ai une certaine
+              De nature curieuse et technophile, j'ai un attraît pour le digital
+              depuis mon enfance. <br /> Par ailleurs, j'ai une certaine
               sensibilité pour l'Art, j'ai donc suivi des cours de dessin et de
               peinture pendant 8 ans. <br />
               Enfin, j'ai une appétence pour les challenges et j'adore les jeux,
-              surtout en équipe. <br />
-              C'est donc assez naturellement que je me suis orientée vers ce
-              métier à la fois technique, créatif et stimulant
+              surtout en équipe ! <br />
+              C'est donc naturellement que je me suis orientée vers ce métier de
+              développeur, à la fois technique, créatif et stimulant
               intellectuellement.
             </p>
-            <p className='py-2 text-gray-300 font-bold cursor-pointer mb-8'>
-              Jettez un oeil à mes projets ! 👀
-            </p>
+            <Link href='/#projects'>
+              <a className='py-2 text-gray-300 font-bold cursor-pointer mb-8 hover:text-lg'>
+                Jettez un oeil à mes projets ! 👀
+              </a>
+            </Link>
           </div>
           <div className='w-60 h-80 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image

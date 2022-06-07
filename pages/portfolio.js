@@ -6,11 +6,11 @@ import Link from 'next/link';
 
 const Portfolio = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full px-8'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10' />
         <Image
-          className='absolute z-1'
+          className='absolute z-1 brightness-90'
           layout='fill'
           objectFit='cover'
           src={codeImg}
@@ -18,19 +18,21 @@ const Portfolio = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Mon Portfolio</h2>
-          <h3>React JS (Next) / Tailwind / Vercel</h3>
+          <h3>React JS / Tailwind / Node JS </h3>
         </div>
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <h2 className='py-3'>Présentation du Portfolio</h2>
-          <p>
-            Cette appli a été construite en mai 2022 en React JS et les
-            Frameworks Next et Tailwind. Il a été déployé avec Vercel.
+          <h2 className='py-3 text-[#66c7ff]'>Présentation du Portfolio</h2>
+          <p className='mb-4'>
+            J'ai construit ce portfolio en mai-juin 2022 exclusivement en React
+            JS et avec les Frameworks Next js et Tailwind. <br />
+            Il a été déployé avec Vercel.
           </p>
-          <div className='flex justify-center'>
-            <button className='px-8 py-2 mt-4 py -inset-5 hover:scale-105'>
+
+          <div className='flex justify-center mt-5'>
+            <button className='px-8 py-2 mt-4 py -inset-5 hover:scale-105 bg-gradient-to-r from-[#8ccbff] to-[#0c7fc7]'>
               <Link href='https://github.com/NanaB38/Portfolio-Nextjs-2022'>
                 <a target='_blank'>Voir le code</a>
               </Link>
@@ -46,9 +48,6 @@ const Portfolio = () => {
               </p>
               <p className='text-gray-200 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Next
-              </p>
-              <p className='text-gray-200 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-200 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind

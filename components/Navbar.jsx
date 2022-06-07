@@ -5,33 +5,14 @@ import styles from '../styles/home.module.css';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
-  const router = useRouter();
 
   const handleNav = () => {
     setNav(!nav);
   };
-
-  useEffect(() => {
-    if (
-      router.asPath === '/property' ||
-      router.asPath === '/crypto' ||
-      router.asPath === '/netflix' ||
-      router.asPath === '/twitch'
-    ) {
-      setNavBg('transparent');
-      setLinkColor('#ecf0f3');
-    } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
-    }
-  }, [router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -52,7 +33,7 @@ const Navbar = () => {
           : 'fixed w-full z-[100]'
       }
     >
-      <div className='bg-[#112D47] h-20 bg-opacity-70 z-[100]'>
+      <div className='bg-[#112D47] h-20 bg-opacity-80 z-[100] mx-2'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <Link href='/'>
             <Image
@@ -60,7 +41,7 @@ const Navbar = () => {
               alt='logoAnnaBoval'
               width={170}
               height={48}
-              className='cursor-pointer'
+              className='cursor-pointer hover:scale-110'
             />
           </Link>
           <div>

@@ -6,66 +6,72 @@ import Link from 'next/link';
 
 const tokyoExpress = () => {
   return (
-    <div className='w-full'>
-      <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
+    <div className='m-auto px-8'>
+      <div className='w-full h-[30vh] lg:h-[40vh] relative'>
+        <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10' />
         <Image
-          className='absolute z-1'
+          className='absolute z-1 brightness-75'
           layout='fill'
           objectFit='cover'
           src={tokyoexpressImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Netflix App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Tokyo Express</h2>
+          <h3> HTML / CSS / Javascript </h3>
         </div>
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup & signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+          <h2 className='py-3 text-[#66c7ff] '>
+            Présentation de Tokyo Express{' '}
+          </h2>
+          <p className='mb-4'>
+            Ce premier projet de groupe a été créé avec les langages HTML, CSS
+            et Javascript pour la partie dynamique. <br />
+            Il s'agit d'un site de type blog voyage, ayant pour objectif de
+            recommander des endroits à visiter et des conseils pour les curieux
+            ou les personnes qui souhaitent s'y rendre. <br />
+            Nous avons utilisé pour ce projet Git, GitHub et Figma pour les
+            maquettes.
           </p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <div className='flex justify-center'>
+            <button className='px-8 py-2 mt-4 py -inset-5 hover:scale-105'>
+              <Link href='https://tokyoexpress.netlify.app/'>
+                <a target='_blank'>Voir le site</a>
+              </Link>
+            </button>
+          </div>
+          <div className='flex justify-center mt-5'>
+            <button className='px-8 py-2 mt-4 py -inset-5 hover:scale-105 bg-gradient-to-r from-[#8ccbff] to-[#0c7fc7]'>
+              <Link href='https://github.com/NanaB38/Wild-P1-TokyoExpress'>
+                <a target='_blank'>Voir le code</a>
+              </Link>
+            </button>
+          </div>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-300 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              <p className='text-gray-200 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+              <p className='text-gray-200 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> HTML / CSS
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
+              <p className='text-gray-200 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> GitHub, Figma
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+              <p className='text-gray-200 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Netify
               </p>
             </div>
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='cursor-pointer hover:scale-110'> ⬅️ Retour</p>
         </Link>
       </div>
     </div>
