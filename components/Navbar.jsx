@@ -36,13 +36,15 @@ const Navbar = () => {
       <div className='bg-[#112D47] h-20 bg-opacity-80 z-[100] mx-2'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <Link href='/'>
-            <Image
-              src='/../public/assets/logoAB.png'
-              alt='logoAnnaBoval'
-              width={170}
-              height={48}
-              className='cursor-pointer hover:scale-110'
-            />
+            <a>
+              <Image
+                src='/../public/assets/logoAB.png'
+                alt='logoAnnaBoval'
+                width={170}
+                height={48}
+                className='cursor-pointer hover:scale-110'
+              />
+            </a>
           </Link>
           <div>
             <nav className='hidden md:flex'>
