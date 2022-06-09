@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import tokyoexpressImg from '../public/assets/projects/tokyoexpress.png';
 import cinechillImg from '../public/assets/projects/cinechill.png';
-import jetreeImg from '../public/assets/projects/jeTree.png';
+import jetreeImg from '../public/assets/projects/jetree.png';
 import qotqotImg from '../public/assets/projects/qotqot.png';
 import codeImg from '../public/assets/projects/code.jpg';
 
