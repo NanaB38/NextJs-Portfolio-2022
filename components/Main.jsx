@@ -4,7 +4,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
-import styles from '../styles/home.module.css';
 
 const Main = () => {
   return (
@@ -15,7 +14,7 @@ const Main = () => {
             Construisons de beaux projets ensemble !
           </p>
           <h1 className='py-4 text-[#40B9FF]'>Anna Boval</h1>
-          <div className={styles.typewritter}>
+          <div className='typewritter'>
             <h2 className='py-3 text-gray-300'>
               <Typewriter
                 options={{
