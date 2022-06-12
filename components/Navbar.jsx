@@ -95,7 +95,7 @@ const Navbar = () => {
                 : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
             }
           >
-            <div className={styles.navbar2}>
+            <div>
               <div className='flex w-full items-center justify-between mt-5'>
                 <Image
                   src='/../public/assets/logoAB.png'
@@ -116,7 +116,7 @@ const Navbar = () => {
                 </p>
               </div>
             </div>
-            <div className={styles.menu}>
+            <div>
               <div className='py-4 flex flex-col md-5'>
                 <ul className='uppercase'>
                   <Link href='/'>
