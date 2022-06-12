@@ -2,7 +2,7 @@ import Image from 'next/image';
 import htmlImg from '../public/assets/skills/html5.png';
 import jsImg from '../public/assets/skills/js.png';
 import reactImg from '../public/assets/skills/React-icon.png';
-import tailwindImg from '../public/assets/skills/Tailwind_css.png';
+import tailwindImg from '../public/assets/skills/Tailwind_CSS.png';
 import cypressImg from '../public/assets/skills/Cypress.png';
 import nodeImg from '../public/assets/skills/nodejs.png';
 import mysqlImg from '../public/assets/skills/png_mysql.png';
