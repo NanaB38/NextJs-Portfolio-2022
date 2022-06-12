@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import picImg from '../public/pic.jpg';
 import Link from 'next/link';
 
 const About = () => {
@@ -49,7 +50,7 @@ const About = () => {
         <div className='w-60 h-80 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image
             className='rounded-xl'
-            src='/../public/pic.jpg'
+            src={picImg}
             alt='photo-of-me'
             width={150}
             height={200}

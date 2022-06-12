@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import logoImg from '../public/assets/logoAB.png';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -37,7 +38,7 @@ const Navbar = () => {
           <Link href='/'>
             <a>
               <Image
-                src='/../public/assets/logoAB.png'
+                src={logoImg}
                 alt='logoAnnaBoval'
                 width={170}
                 height={48}
