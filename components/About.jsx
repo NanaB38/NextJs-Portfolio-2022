@@ -38,12 +38,12 @@ const About = () => {
             Enfin, j'ai une appétence pour les challenges et j'adore les jeux,
             surtout en équipe ! <br />
             C'est donc naturellement que je me suis orientée vers ce métier de
-            développeur, à la fois technique, créatif et stimulant
+            développeur web, à la fois technique, créatif et stimulant
             intellectuellement.
           </p>
           <Link href='/#projects'>
             <a className='py-2 text-gray-300 font-bold cursor-pointer mb-8 hover:text-lg'>
-              Jettez un oeil à mes projets ! 👀
+              Jetez un oeil à mes projets ! 👀
             </a>
           </Link>
         </div>
