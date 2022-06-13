@@ -8,7 +8,7 @@ import codeImg from '../public/assets/projects/code.jpg';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full lg:h-auto px-8 pt-20'>
+    <div id='projects' className='w-full lg:h-auto px-4 sm:px-12 pt-20'>
       <div className=' m-auto max-w-[1240px]'>
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes Projets

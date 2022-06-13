@@ -65,7 +65,7 @@ const tokyoExpress = () => {
                 <RiRadioButtonFill className='pr-1' /> GitHub, Figma
               </p>
               <p className='text-gray-200 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Netify
+                <RiRadioButtonFill className='pr-1' /> Netlify
               </p>
             </div>
           </div>

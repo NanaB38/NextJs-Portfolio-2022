@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div id='about' className='w-full lg:h-screen px-8 py-20 mt-10'>
+    <div id='about' className='w-full lg:h-screen px-4 sm:px-12 py-20 mt-12'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl font-extrabold tracking-widest text-[#40B9FF]'>
@@ -19,9 +19,9 @@ const About = () => {
             Développeuse curieuse, créative et rigoureuse 👩‍💻
           </p>
           <p className='py-2 text-gray-300'>
-            Ancienne conseillère bancaire, j'ai décidé il y a plusieurs mois de
-            faire un virage à 360° et me reconvertir dans ce métier incroyable
-            qu'est <span className='font-bold'>développeur web</span>. <br />
+            Ancienne conseillère bancaire, j'ai décidé il y a un an de faire un
+            virage à 360° et me reconvertir dans ce métier incroyable qu'est{' '}
+            <span className='font-bold'>développeur web</span>. <br />
             Pour me former, j'ai donc choisi la Wild Code School à Lyon, qui
             propose une formation intensive de 5 mois, certifiée de niveau BAC
             +2. <br />
@@ -47,7 +47,7 @@ const About = () => {
             </a>
           </Link>
         </div>
-        <div className='w-60 h-80 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-60 h-80 mt-8 sm:mt-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image
             className='rounded-xl'
             src={picImg}

@@ -91,14 +91,14 @@ const Navbar = () => {
           <div
             className={
               nav
-                ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#112D47] ease-in duration-500'
+                ? 'fixed left-0 top-0 w-[80%] sm:w-[60%] md:w-[45%] h-screen bg-[#112D47] ease-in duration-500'
                 : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
             }
           >
-            <div>
+            <div className='ml-4'>
               <div className='flex w-full items-center justify-between mt-5'>
                 <Image
-                  src='/../public/assets/logoAB.png'
+                  src={logoImg}
                   alt='logoAnnaBoval'
                   width={140}
                   height={40}
@@ -117,7 +117,7 @@ const Navbar = () => {
               </div>
             </div>
             <div>
-              <div className='py-4 flex flex-col md-5'>
+              <div className='py-4 flex flex-col md-5 ml-4'>
                 <ul className='uppercase'>
                   <Link href='/'>
                     <li className='py-4 text-sm hover:text-base'>Accueil</li>

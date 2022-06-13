@@ -11,7 +11,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen px-8 py-20'>
+    <div id='skills' className='w-full lg:h-screen px-4 sm:px-12 py-20'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center '>
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes compétences tech
