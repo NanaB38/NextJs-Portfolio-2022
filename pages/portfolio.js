@@ -28,12 +28,12 @@ const Portfolio = () => {
           <p className='mb-4'>
             J'ai construit ce portfolio en mai-juin 2022 exclusivement en React
             JS et avec les Frameworks Next js et Tailwind. <br />
-            Il a été déployé avec Vercel.
+            Il a été déployé sous Vercel.
           </p>
 
           <div className='flex justify-center mt-5'>
             <button className='px-8 py-2 mt-4 py -inset-5 hover:scale-105 bg-gradient-to-r from-[#8ccbff] to-[#0c7fc7]'>
-              <Link href='https://github.com/NanaB38/Portfolio-Nextjs-2022'>
+              <Link href='https://github.com/NanaB38/NextJs-Portfolio-2022'>
                 <a target='_blank'>Voir le code</a>
               </Link>
             </button>
