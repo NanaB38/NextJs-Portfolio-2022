@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center py-20 px-4 sm:px-12'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
         <div>
           <p className='uppercase text-base tracking-widest mt-40'>
             Construisons de beaux projets ensemble !
@@ -30,7 +30,7 @@ const Main = () => {
             </h2>
           </div>
           <div className='mt-5'>
-            <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
+            <p className='py-4 text-gray-300 max-w-[90%] m-auto'>
               Je suis une développeuse full-stack Javascript junior et j'adore{' '}
               <br />
               créer des contenus responsive, beaux et fonctionnels !
