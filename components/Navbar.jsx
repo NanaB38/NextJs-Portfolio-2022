@@ -33,8 +33,8 @@ const Navbar = () => {
           : 'fixed w-full z-[100]'
       }
     >
-      <div className='bg-[#112D47] h-20 bg-opacity-80 z-[100] mx-2'>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className='bg-[#112D47] h-16 sm:h-20 bg-opacity-80 z-[100] mx-2'>
+        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 pt-2 sm:pt-0'>
           <Link href='/'>
             <a>
               <Image
@@ -84,9 +84,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={
-            nav ? 'fixed left-0 top-0 w-full h-screen bg-black/60' : ''
-          }
+          className={nav && 'fixed left-0 top-0 w-full h-screen bg-black/60'}
         >
           <div
             className={
@@ -112,7 +110,7 @@ const Navbar = () => {
               </div>
               <div className='border-b border-gray-400 mt-16'>
                 <p className='w-[85%] md:w-[90%]'>
-                  Construisons de beaux projets ensemble !
+                  Développons de beaux projets ensemble !
                 </p>
               </div>
             </div>

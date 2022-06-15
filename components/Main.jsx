@@ -8,10 +8,10 @@ import Typewriter from 'typewriter-effect';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center py-20 px-4 sm:px-12'>
-      <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full mx-auto flex justify-center items-center pt-10 sm:mt-14'>
         <div>
-          <p className='uppercase text-base tracking-widest mt-40'>
-            Construisons de beaux projets ensemble !
+          <p className='uppercase text-sm tracking-widest'>
+            Développons de beaux projets ensemble !
           </p>
           <h1 className='py-4 text-[#40B9FF]'>Anna Boval</h1>
           <div className='typewritter'>
