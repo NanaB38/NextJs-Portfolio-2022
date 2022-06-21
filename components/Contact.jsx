@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='w-full px-4 sm:px-12 py-20 mt-4'>
+    <div id='contact' className='w-full h-screen px-4 sm:px-12 py-20'>
       <div className='m-auto max-w-[1240px]'>
         <p className='text-xl tracking-wider font-extrabold uppercase text-[#37B6FF] pb-5'>
           Contact
@@ -129,15 +129,17 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Objet</label>
-                  <input
-                    className='border-2 rounded-lg p-3 flex border-gray-500 text-gray-700 bg-[#c0dbeb]'
-                    type='text'
-                    name='subject'
-                    required
-                    onChange={(e) => setSubject(e.target.value)}
-                    value={subject}
-                  />
+                  <label className='uppercase text-sm py-2'>
+                    Objet
+                    <input
+                      className='border-2 rounded-lg p-3 flex border-gray-500 text-gray-700 bg-[#c0dbeb]'
+                      type='text'
+                      name='subject'
+                      required
+                      onChange={(e) => setSubject(e.target.value)}
+                      value={subject}
+                    />{' '}
+                  </label>
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>

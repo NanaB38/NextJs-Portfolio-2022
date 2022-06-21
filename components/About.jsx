@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div id='about' className='w-full lg:h-screen px-4 sm:px-12 py-20 mt-12'>
+    <div id='about' className='w-full px-4 sm:px-12 py-24 '>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl font-extrabold tracking-widest text-[#40B9FF]'>
