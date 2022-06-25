@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { VscPreview } from 'react-icons/vsc';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
@@ -22,8 +22,8 @@ const Main = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'Bienvenue sur mon Portfolio !',
-                    'Développeuse Web et Mobile junior',
+                    'Bienvenue sur mon Portfolio',
+                    'Développeuse Web et Mobile Full Stack junior',
                     'Disponible pour une alternance ou un stage',
                   ],
                   autoStart: true,
@@ -34,9 +34,8 @@ const Main = () => {
           </div>
           <div className='mt-5'>
             <p className='py-4 text-gray-300 max-w-[90%] m-auto'>
-              Je suis une développeuse full-stack Javascript junior et j'adore{' '}
-              <br />
-              créer des contenus responsive, beaux et fonctionnels !
+              Je suis une développeuse Full Stack junior et j'adore <br />
+              coder des projets responsive, beaux et fonctionnels !
               <span className='shadow-md ml-2 shadow-gray-300'>📱</span>{' '}
             </p>
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
@@ -49,9 +48,10 @@ const Main = () => {
                   Wild Code School
                 </a>
               </Link>
-              , je souhaite poursuivre mes études avec une{' '}
+              , je souhaite vivement continuer d'apprendre avec une{' '}
               <span className='font-bold'>alternance</span> ou un{' '}
-              <span className='font-bold'>stage</span>.
+              <span className='font-bold'>stage</span> à partir de septembre
+              prochain, dans une entreprise qui partage mes valeurs.
             </p>
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
               Hi, I’m a junior full-stack web developer and I love building
@@ -87,7 +87,7 @@ const Main = () => {
                 className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                 target='_blank'
               >
-                <BsFillPersonLinesFill />
+                <VscPreview />
               </a>
             </Link>
           </div>

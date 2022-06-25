@@ -4,7 +4,7 @@ import logoImg from '../public/assets/logoAB.png';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { VscPreview } from 'react-icons/vsc';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -103,19 +103,19 @@ const Navbar = () => {
                 />
                 <div
                   onClick={handleNav}
-                  className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer'
+                  className='rounded-full shadow-md shadow-gray-400 p-2 mx-2'
                 >
                   <AiOutlineClose />
                 </div>
               </div>
-              <div className='border-b border-gray-400 mt-16'>
+              <div className='border-b border-gray-400 mt-10'>
                 <p className='w-[85%] md:w-[90%]'>
                   Développons de beaux projets ensemble !
                 </p>
               </div>
             </div>
             <div>
-              <div className='py-4 flex flex-col md-5 ml-4'>
+              <div className='py-2 flex flex-col md-5 ml-4'>
                 <ul className='uppercase'>
                   <Link href='/'>
                     <li className='py-4 text-sm hover:text-base'>Accueil</li>
@@ -136,23 +136,40 @@ const Navbar = () => {
                   </Link>
                 </ul>
 
-                <div className='pt-40 mt-20'>
+                <div className='pt-36'>
                   <p className='uppercase tracking-widest text-[#37B6FF]'>
                     Contactez-moi !
                   </p>
-                  <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                      <FaLinkedinIn />
-                    </div>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                      <FaGithub />
-                    </div>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                      <AiOutlineMail />
-                    </div>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                      <BsFillPersonLinesFill />
-                    </div>
+                  <div className='flex items-center justify-between px-3 py-2 w-full sm:w-[80%]'>
+                    <Link href='https://www.linkedin.com/in/anna-boval-1a5407136/'>
+                      <a
+                        className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                        target='_blank'
+                      >
+                        <FaLinkedinIn />
+                      </a>
+                    </Link>
+                    <Link href='https://github.com/NanaB38'>
+                      <a
+                        className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                        target='_blank'
+                      >
+                        <FaGithub />
+                      </a>
+                    </Link>
+                    <Link href='/#contact'>
+                      <a className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                        <AiOutlineMail />
+                      </a>
+                    </Link>
+                    <Link href='https://drive.google.com/file/d/1dKoF6DxFBMm7GKSFUYrbRpBf8Mmp8HD8/view'>
+                      <a
+                        className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                        target='_blank'
+                      >
+                        <VscPreview />
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

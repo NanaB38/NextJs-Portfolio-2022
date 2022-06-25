@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import contactImg from '../public/assets/contact.jpeg';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { VscPreview } from 'react-icons/vsc';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
@@ -78,7 +78,7 @@ const Contact = () => {
                       className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                       target='_blank'
                     >
-                      <BsFillPersonLinesFill />
+                      <VscPreview />
                     </a>
                   </Link>
                 </div>
