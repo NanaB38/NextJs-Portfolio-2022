@@ -16,28 +16,30 @@ const About = () => {
           </p>
           <h2 className='py-4'>Qui suis-je ? </h2>
           <p className='py-2 text-gray-300'>
-            Développeuse curieuse, déterminée, créative et rigoureuse 👩‍💻
+            Développeuse curieuse, créative et rigoureuse 👩‍💻
           </p>
           <p className='py-2 text-gray-300'>
             Ancienne conseillère bancaire, j'ai décidé il y a un an de faire un
             virage à 360° et me reconvertir dans ce métier incroyable qu'est{' '}
-            <span className='font-bold'>développeur web</span>. <br />
+            <span className='font-bold'>développeur web et mobile ! </span>{' '}
+            <br />
             Pour me former, j'ai choisi la Wild Code School à Lyon, qui propose
             une formation intensive de 5 mois "développeur web et mobile",
-            certifiée de niveau BAC +2. <br />
-            La formation repose sur la pratique intensive et le développement de
-            projets en Javascript/ React pour la partie front-end et Node.js/
-            Prisma pour le back-end. <br /> J'apprends également à modéliser les
-            bases de données avec MySql, Express ou Prisma, créer des API REST
-            et à tester le code avec Cypress.
+            certifiée BAC +2. <br />
+            La formation repose sur la théorie mais surtout la pratique
+            intensive : maquettage , intégration et développement de projets en
+            Javascript/ React pour la partie front-end et Node.js/ Prisma pour
+            le back-end. <br /> J'apprends également à modéliser les bases de
+            données Sql avec Express ou Prisma, créer des API REST et à tester
+            le code avec Cypress.
           </p>
           <p className='py-2 text-gray-300'>
             De nature curieuse et technophile, j'ai un attraît pour le digital
             depuis mon enfance. <br /> Ayant toujours aimé dessiner - créer et
             grâce aux cours de dessin/peinture, j'ai développé une sensibilité
             créative. <br />
-            Enfin, j'ai une appétence pour les challenges, les jeux de logique
-            et les jeux en équipe (vive les Escape Game) ! <br />
+            Enfin, j'ai une appétence pour les challenges, le sport (rando,
+            vélo, ski, danse) et les jeux en équipe. <br />
             C'est donc naturellement que je me suis orientée vers ce métier de
             développeur web, à la fois technique, créatif et stimulant
             intellectuellement.

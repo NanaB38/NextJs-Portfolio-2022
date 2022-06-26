@@ -34,7 +34,7 @@ const Main = () => {
           </div>
           <div className='mt-5'>
             <p className='py-4 text-gray-300 max-w-[90%] m-auto'>
-              Je suis une développeuse Full Stack junior et j'adore <br />
+              Je suis développeuse Full Stack junior et j'adore <br />
               coder des projets responsive, beaux et fonctionnels !
               <span className='shadow-md ml-2 shadow-gray-300'>📱</span>{' '}
             </p>
@@ -48,10 +48,10 @@ const Main = () => {
                   Wild Code School
                 </a>
               </Link>
-              , je souhaite vivement continuer d'apprendre avec une{' '}
+              , je souhaite vivement continuer mon apprentissage avec une{' '}
               <span className='font-bold'>alternance</span> ou un{' '}
-              <span className='font-bold'>stage</span> à partir de septembre
-              prochain, dans une entreprise qui partage mes valeurs.
+              <span className='font-bold'>stage</span> à partir d'août /
+              septembre prochain, dans une entreprise qui partage mes valeurs.
             </p>
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
               Hi, I’m a junior full-stack web developer and I love building
