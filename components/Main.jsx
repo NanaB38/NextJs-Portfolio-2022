@@ -13,8 +13,9 @@ const Main = () => {
     >
       <div className='max-w-[1240px] w-full mx-auto flex justify-center items-center pt-10 sm:mt-14'>
         <div>
-          <p className='uppercase text-sm tracking-widest'>
-            Développons de beaux projets ensemble !
+          <p className='uppercase text-base tracking-widest '>
+            Développons de super projets ensemble !{' '}
+            <span className='text-[35px]'>🚀</span>
           </p>
           <h1 className='py-4 text-[#40B9FF]'>Anna Boval</h1>
           <div className='typewritter'>
@@ -36,7 +37,7 @@ const Main = () => {
             <p className='py-4 text-gray-300 max-w-[90%] m-auto'>
               Je suis développeuse Full Stack junior et j'adore <br />
               coder des projets responsive, beaux et fonctionnels !
-              <span className='shadow-md ml-2 shadow-gray-300'>📱</span>{' '}
+              <span className=' ml-2 '>📱</span>{' '}
             </p>
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
               Actuellement en formation à la{' '}

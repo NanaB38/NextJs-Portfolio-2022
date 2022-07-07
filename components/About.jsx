@@ -19,8 +19,8 @@ const About = () => {
             Développeuse curieuse, créative et rigoureuse 👩‍💻
           </p>
           <p className='py-2 text-gray-300'>
-            Ancienne conseillère bancaire, j'ai décidé il y a un an de faire un
-            virage à 360° et me reconvertir dans ce métier incroyable qu'est{' '}
+            Ancienne conseillère bancaire, j'ai décidé de faire un virage à 360°
+            et me reconvertir dans ce métier incroyable qu'est{' '}
             <span className='font-bold'>développeur web et mobile ! </span>{' '}
             <br />
             Pour me former, j'ai choisi la Wild Code School à Lyon, qui propose
@@ -28,14 +28,14 @@ const About = () => {
             certifiée BAC +2. <br />
             La formation repose sur la théorie mais surtout la pratique
             intensive : maquettage , intégration et développement de projets en
-            Javascript/ React pour la partie front-end et Node.js/ Prisma pour
-            le back-end. <br /> J'apprends également à modéliser les bases de
-            données Sql avec Express ou Prisma, créer des API REST et à tester
+            Javascript/ React pour la partie front-end et Node.js pour le
+            back-end. <br /> J'apprends également à modéliser les bases de
+            données Sql avec Express et Prisma, créer des API REST et à tester
             le code avec Cypress.
           </p>
           <p className='py-2 text-gray-300'>
             De nature curieuse et technophile, j'ai un attraît pour le digital
-            depuis mon enfance. <br /> Ayant toujours aimé dessiner - créer et
+            depuis mon enfance. <br /> Ayant toujours aimé dessiner-créer et
             grâce aux cours de dessin/peinture, j'ai développé une sensibilité
             créative. <br />
             Enfin, j'ai une appétence pour les challenges, le sport (rando,
