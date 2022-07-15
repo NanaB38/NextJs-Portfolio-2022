@@ -13,11 +13,11 @@ const Main = () => {
     >
       <div className='max-w-[1240px] w-full mx-auto flex justify-center items-center pt-10 sm:mt-14'>
         <div>
-          <p className='uppercase text-base tracking-widest '>
+          <p className='uppercase text-base tracking-widest text-gray-300'>
             Développons de super projets ensemble !{' '}
-            <span className='text-[35px]'>🚀</span>
+            <span className='text-[20px] md:text-[32px]'>🚀</span>
           </p>
-          <h1 className='py-4 text-[#40B9FF]'>Anna Boval</h1>
+          <h1 className='py-8 text-[#40B9FF]'>Anna Boval</h1>
           <div className='typewritter'>
             <h2 className='py-3 text-gray-300'>
               <Typewriter
@@ -35,12 +35,12 @@ const Main = () => {
           </div>
           <div className='mt-5'>
             <p className='py-4 text-gray-300 max-w-[90%] m-auto'>
-              Je suis développeuse Full Stack junior et j'adore <br />
+              Je suis développeuse Full Stack junior et j'aime <br />
               coder des projets responsive, beaux et fonctionnels !
               <span className=' ml-2 '>📱</span>{' '}
             </p>
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
-              Actuellement en formation à la{' '}
+              Terminant la formation "Développeur web et mobile" à la{' '}
               <Link href='https://www.wildcodeschool.com/fr-FR/campus/lyon'>
                 <a
                   className='text-[#3da7e4] font-bold hover:text-[#abe0ff]'
@@ -83,7 +83,7 @@ const Main = () => {
                 <AiOutlineMail />
               </a>
             </Link>
-            <Link href='https://drive.google.com/file/d/1dKoF6DxFBMm7GKSFUYrbRpBf8Mmp8HD8/view'>
+            <Link href='https://drive.google.com/file/d/1vweVCbqfx9kA9OveEZbDd9qf6IY_L1aH/view'>
               <a
                 className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                 target='_blank'

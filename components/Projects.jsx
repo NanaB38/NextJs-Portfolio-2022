@@ -13,9 +13,7 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes Projets
         </p>
-        <p className='text-md tracking-widest uppercase text-gray-300 opacity-60'>
-          Projects
-        </p>
+
         <h2 className='py-6'>Les projets développés pendant ma formation </h2>
 
         <div className='grid md:grid-cols-2 gap-8'>
@@ -40,7 +38,7 @@ const Projects = () => {
             projectUrl='/portfolio'
           />
           <ProjectItem
-            title='QotQot (en cours)'
+            title='QotQot'
             backgroundImg={qotqotImg}
             projectUrl='/qotqot'
           />

@@ -11,9 +11,6 @@ const About = () => {
           <p className='uppercase text-xl font-extrabold tracking-widest text-[#40B9FF]'>
             A propos de moi
           </p>
-          <p className='text-md tracking-widest uppercase text-gray-300 opacity-60'>
-            About me
-          </p>
           <h2 className='py-4'>Qui suis-je ? </h2>
           <p className='py-2 text-gray-300'>
             Développeuse curieuse, créative et rigoureuse 👩‍💻
@@ -44,11 +41,13 @@ const About = () => {
             développeur web, à la fois technique, créatif et stimulant
             intellectuellement.
           </p>
-          <Link href='/#projects'>
-            <a className='py-2 text-gray-300 font-bold cursor-pointer mb-8 hover:text-lg'>
-              Jetez un oeil à mes projets ! 👀
-            </a>
-          </Link>
+          <div className='py-6'>
+            <Link href='/#projects'>
+              <a className=' text-gray-300 font-bold cursor-pointer mb-8 hover:text-lg'>
+                Jetez un oeil à mes projets ! 👀
+              </a>
+            </Link>
+          </div>
         </div>
         <div className='w-60 h-80 mt-8 sm:mt-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image

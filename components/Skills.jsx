@@ -16,9 +16,6 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase font-extrabold text-[#37B6FF]'>
           Mes compétences tech
         </p>
-        <p className='text-md tracking-widest uppercase text-gray-300 opacity-60'>
-          Hard skills
-        </p>
 
         <h2 className='py-10'>Langages et Frameworks</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>

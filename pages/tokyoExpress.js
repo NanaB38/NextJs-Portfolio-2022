@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const tokyoExpress = () => {
   return (
-    <div className='m-auto px-8'>
+    <>
       <div className='w-full h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10' />
         <Image
@@ -22,7 +22,7 @@ const tokyoExpress = () => {
         </div>
       </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
+      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 px-4'>
         <div className='col-span-4'>
           <h2 className='py-3 text-[#66c7ff] '>
             Présentation de Tokyo Express{' '}
@@ -53,7 +53,7 @@ const tokyoExpress = () => {
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-300 rounded-xl p-4'>
           <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Technologies</p>
+            <p className='text-center font-bold pb-2'>Stack technique</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-200 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
@@ -74,7 +74,7 @@ const tokyoExpress = () => {
           <p className='cursor-pointer hover:scale-110'> ⬅️ Retour</p>
         </Link>
       </div>
-    </div>
+    </>
   );
 };
 
