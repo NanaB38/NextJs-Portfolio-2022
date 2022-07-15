@@ -83,7 +83,7 @@ const Main = () => {
                 <AiOutlineMail />
               </a>
             </Link>
-            <Link href='https://drive.google.com/file/d/1vweVCbqfx9kA9OveEZbDd9qf6IY_L1aH/view'>
+            <Link href='https://drive.google.com/file/d/1t7LZTBXxB0hM1g0JcjR2q8fYyJMR4C6v/view'>
               <a
                 className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                 target='_blank'
