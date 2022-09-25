@@ -9,7 +9,7 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl font-extrabold tracking-widest text-[#40B9FF]'>
-            A propos de moi
+            À propos de moi
           </p>
           <h2 className='py-4'>Qui suis-je ? </h2>
           <p className='py-2 text-gray-300'>
@@ -20,21 +20,25 @@ const About = () => {
             et me reconvertir dans ce métier incroyable qu'est{' '}
             <span className='font-bold'>développeur web et mobile ! </span>{' '}
             <br />
-            Pour me former, j'ai choisi la Wild Code School à Lyon, qui propose
-            une formation intensive de 5 mois "développeur web et mobile",
-            certifiée BAC +2. <br />
-            La formation repose sur la théorie mais surtout la pratique
+            Pour me former, j'ai choisi tout d'abord la Wild Code School, qui
+            propose une formation intensive de 5 mois "développeur web et
+            mobile", certifiée BAC +2. <br />
+            Cette formation repose sur la théorie mais surtout la pratique
             intensive : maquettage , intégration et développement de projets en
             Javascript/ React pour la partie front-end et Node.js pour le
-            back-end. <br /> J'apprends également à modéliser les bases de
+            back-end. <br /> J'ai appris également à modéliser les bases de
             données Sql avec Express et Prisma, créer des API REST et à tester
-            le code avec Cypress.
+            le code. <br />
+            Aujourd'hui, j'ai décidé de poursuivre mon apprentissage avec un
+            Bachelor "Concepteur-Developpeur d'applications" (certifié BAC+3/+4)
+            chez MyDigitalSchool, à Lyon, afin de renforcer mes compétences
+            techniques et mon autonomie.
           </p>
           <p className='py-2 text-gray-300'>
-            De nature curieuse et technophile, j'ai un attraît pour le digital
-            depuis mon enfance. <br /> Ayant toujours aimé dessiner-créer et
-            grâce aux cours de dessin/peinture, j'ai développé une sensibilité
-            créative. <br />
+            De nature curieuse, j'ai un attraît pour le digital depuis mon
+            enfance. <br /> Ayant toujours aimé dessiner-créer et grâce aux
+            cours de dessin, j'ai développé une sensibilité créative.
+            <br />
             Enfin, j'ai une appétence pour les challenges, le sport (rando,
             vélo, ski, danse) et les jeux en équipe. <br />
             C'est donc naturellement que je me suis orientée vers ce métier de

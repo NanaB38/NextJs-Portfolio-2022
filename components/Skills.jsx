@@ -3,7 +3,7 @@ import htmlImg from '../public/assets/skills/html5.png';
 import jsImg from '../public/assets/skills/js.png';
 import reactImg from '../public/assets/skills/React-icon.png';
 import tailwindImg from '../public/assets/skills/Tailwind_CSS.png';
-import cypressImg from '../public/assets/skills/Cypress.png';
+import phpImg from '../public/assets/skills/php.png';
 import nodeImg from '../public/assets/skills/nodejs.png';
 import mysqlImg from '../public/assets/skills/png_mysql.png';
 import githubImg from '../public/assets/skills/github-50.png';
@@ -50,22 +50,22 @@ const Skills = () => {
             </div>
           </div>
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center mt-4'>
+              <div className='m-auto '>
+                <Image src={phpImg} width='115px' height='45px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center mt-2'>
+                <h3>PHP</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={tailwindImg} width='70px' height='50px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center mt-5'>
                 <h3>Tailwind</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto mt-5'>
-                <Image src={cypressImg} width='170px' height='55px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center mt-4'>
-                <h3>Cypress</h3>
               </div>
             </div>
           </div>
@@ -80,16 +80,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center '>
-              <div className='m-auto'>
-                <Image src={mysqlImg} width='110px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center mt-4'>
-                <h3>My SQL</h3>
-              </div>
-            </div>
-          </div>
+
           <div className='p-6 shadow-lg  shadow-gray-500 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto mt-3'>

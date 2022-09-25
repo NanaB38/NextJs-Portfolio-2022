@@ -44,9 +44,9 @@ const Contact = () => {
                 <h2 className='py-2'>Anna Boval</h2>
                 <p>Développeuse web et mobile junior</p>
                 <p className='py-4'>
-                  Je suis disponible sur le bassin lyonnais et le Nord-Isère à
-                  partir de septembre 2022 pour un contrat de
-                  professionnalisation ou un stage.
+                  Je suis disponible sur le bassin lyonnais et l'Isère à partir
+                  de septembre 2022 pour un contrat de professionnalisation ou
+                  un stage.
                 </p>
               </div>
               <div>

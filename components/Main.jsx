@@ -34,13 +34,13 @@ const Main = () => {
             </h2>
           </div>
           <div className='mt-5'>
-            <p className='py-4 text-gray-300 max-w-[90%] m-auto'>
+            <p className='py-4 text-gray-300 max-w-[90%] m-auto text-[20px]'>
               Je suis développeuse Full Stack junior et j'aime <br />
               coder des projets responsive, beaux et fonctionnels !
-              <span className=' ml-2 '>📱</span>{' '}
+              <span className=' ml-2 '>📱</span>
             </p>
             <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
-              Terminant la formation "Développeur web et mobile" à la{' '}
+              Ayant terminé la formation "Développeur web et mobile" à la{' '}
               <Link href='https://www.wildcodeschool.com/fr-FR/campus/lyon'>
                 <a
                   className='text-[#3da7e4] font-bold hover:text-[#abe0ff]'
@@ -49,10 +49,10 @@ const Main = () => {
                   Wild Code School
                 </a>
               </Link>
-              , je souhaite vivement continuer mon apprentissage avec une{' '}
-              <span className='font-bold'>alternance</span> ou un{' '}
-              <span className='font-bold'>stage</span> à partir d'août /
-              septembre prochain, dans une entreprise qui partage mes valeurs.
+              , je souhaite continuer mon apprentissage avec une{' '}
+              <span className='font-bold'>alternance</span> en Bachelor 3 ou un{' '}
+              <span className='font-bold'>stage</span> à partir de septembre,
+              dans une entreprise qui partage mes valeurs.
             </p>
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
               Hi, I’m a junior full-stack web developer and I love building
