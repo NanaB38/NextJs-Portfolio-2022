@@ -51,28 +51,28 @@ const Navbar = () => {
               <Link href='/'>
                 <a
                   onClick={() => setNav(false)}
-                  className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'
+                  className='ml-10 text-sm uppercase hover:text-[#82d1ff] hover:scale-125 hover:font-semibold'
                 >
                   Accueil
                 </a>
               </Link>
               <Link href='/#about'>
-                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
+                <a className='ml-10 text-sm uppercase hover:text-[#82d1ff] hover:scale-125 hover:font-semibold'>
                   A propos
                 </a>
               </Link>
               <Link href='/#skills'>
-                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
+                <a className='ml-10 text-sm uppercase hover:text-[#82d1ff] hover:scale-125 hover:font-semibold'>
                   Compétences
                 </a>
               </Link>
               <Link href='/#projects'>
-                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
+                <a className='ml-10 text-sm uppercase hover:text-[#82d1ff] hover:scale-125 hover:font-semibold'>
                   Projets
                 </a>
               </Link>
               <Link href='/#contact'>
-                <a className='ml-10 text-sm uppercase hover:text-[#4dbeff] hover:scale-125'>
+                <a className='ml-10 text-sm uppercase hover:text-[#82d1ff] hover:scale-125 hover:font-semibold'>
                   Contact
                 </a>
               </Link>
