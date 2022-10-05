@@ -43,17 +43,21 @@ const Main = () => {
               3 bonnes raisons de me recruter en  <span className='font-bold text-[#47bbff]'>alternance</span> ou 
               en <span className='font-bold text-[#47bbff]'>stage</span> : 
               </p> 
-              <p className='pb-2'>
-              Je participerai activement au développement de vos sites et applis responsives <br />
+             
+              <p>
+              Je participerai activement au développement de vos sites et applis <br />
               Je proposerai des solutions, serai à l'écoute et solidaire avec l'équipe <br />
-              Je me formerai avec sérieux pour réussir dans les différentes missions que vous me confierez <br />
+              Je me formerai avec sérieux pour réussir dans les différentes missions que <br />
+              vous me confierez 
            </p>
+           
 
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
-              Hi, I’m a junior full-stack web developer and I love building
-              beautiful and responsive digital projects! <br />
+              Welcome! I’m a junior full-stack web developer and I love building
+              responsive digital projects! <br />
               Currently, I'm focused on finding a sandwich degree or an internship from September
             </p>
+            
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
             <Link href='https://www.linkedin.com/in/anna-boval-1a5407136/'>
