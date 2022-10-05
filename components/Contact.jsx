@@ -29,7 +29,7 @@ const Contact = () => {
           Contact
         </p>
         <div className='grid lg:grid-cols-5 gap-8'>
-          <div className='col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full shadow-md shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -54,7 +54,7 @@ const Contact = () => {
                 <div className='flex items-center justify-between py-4'>
                   <Link href='https://www.linkedin.com/in/anna-boval-1a5407136/'>
                     <a
-                      className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                      className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                       target='_blank'
                     >
                       <FaLinkedinIn />
@@ -62,20 +62,20 @@ const Contact = () => {
                   </Link>
                   <Link href='https://github.com/NanaB38'>
                     <a
-                      className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                      className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                       target='_blank'
                     >
                       <FaGithub />
                     </a>
                   </Link>
                   <Link href='/#contact'>
-                    <a className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <AiOutlineMail />
                     </a>
                   </Link>
                   <Link href='https://drive.google.com/file/d/1t7LZTBXxB0hM1g0JcjR2q8fYyJMR4C6v/view'>
                     <a
-                      className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                      className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                       target='_blank'
                     >
                       <VscPreview />
@@ -86,7 +86,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4 '>
               <form
                 onSubmit={handleSubmit}

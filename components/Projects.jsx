@@ -33,16 +33,19 @@ const Projects = () => {
             projectUrl='/jeTree'
           />
           <ProjectItem
-            title='Portfolio'
-            backgroundImg={codeImg}
-            projectUrl='/portfolio'
-          />
-          <ProjectItem
             title='QotQot'
             backgroundImg={qotqotImg}
             projectUrl='/qotqot'
           />
         </div>
+
+        <h2 className='py-6'>Mes projets personnels </h2>
+        <div className='grid md:grid-cols-2 gap-8'></div>
+         <ProjectItem
+            title='Portfolio'
+            backgroundImg={codeImg}
+            projectUrl='/portfolio'
+          />
       </div>
     </div>
   );

@@ -24,20 +24,20 @@ const About = () => {
             propose une formation intensive de 5 mois "développeur web et
             mobile", certifiée BAC +2. <br />
             Cette formation repose sur la théorie mais surtout la pratique
-            intensive : maquettage , intégration et développement de projets en
+            intensive : maquettage, intégration et développement de projets en
             Javascript/ React pour la partie front-end et Node.js pour le
             back-end. <br /> J'ai appris également à modéliser les bases de
             données Sql avec Express et Prisma, créer des API REST et à tester
             le code. <br />
             Aujourd'hui, j'ai décidé de poursuivre mon apprentissage avec un
-            Bachelor "Concepteur-Developpeur d'applications" (certifié BAC+3/+4)
+            Bachelor "Concepteur-Developpeur d'applications" (certifié BAC+3/4)
             chez MyDigitalSchool, à Lyon, afin de renforcer mes compétences
             techniques et mon autonomie.
           </p>
           <p className='py-2 text-gray-300'>
             De nature curieuse, j'ai un attraît pour le digital depuis mon
-            enfance. <br /> Ayant toujours aimé dessiner-créer et grâce aux
-            cours de dessin, j'ai développé une sensibilité créative.
+            enfance et j'adore apprendre au quotidien ! <br /> Ayant toujours aimé dessiner, 
+            peindre et créer, j'ai développé une sensibilité créative.
             <br />
             Enfin, j'ai une appétence pour les challenges, le sport (rando,
             vélo, ski, danse) et les jeux en équipe. <br />

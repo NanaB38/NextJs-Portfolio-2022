@@ -23,8 +23,8 @@ const Main = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'Bienvenue sur mon Portfolio',
-                    'Développeuse Web et Mobile Full Stack junior',
+                    'Bienvenue sur mon Portfolio !',
+                    'Développeuse Web et Mobile Full-Stack junior',
                     'Disponible pour une alternance ou un stage',
                   ],
                   autoStart: true,
@@ -34,7 +34,7 @@ const Main = () => {
             </h2>
           </div>
           <div className='mt-5'>
-            <p className='py-4 text-gray-300 max-w-[90%] m-auto text-[20px]'>
+            <p className='py-4 text-gray-300 max-w-[90%] m-auto text-[20px] hidden'>
               Je suis développeuse Full Stack junior et j'aime <br />
               coder des projets responsive, beaux et fonctionnels !
               <span className=' ml-2 '>📱</span>
@@ -61,7 +61,7 @@ const Main = () => {
               finding a sandwich degree or an internship from September.
             </p>
           </div>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
             <Link href='https://www.linkedin.com/in/anna-boval-1a5407136/'>
               <a
                 className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
