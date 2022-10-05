@@ -13,13 +13,13 @@ const Main = () => {
     >
       <div className='max-w-[1240px] w-full mx-auto flex justify-center items-center pt-10 sm:mt-14'>
         <div>
-          <p className='uppercase text-base tracking-widest text-gray-300'>
+          <p className='uppercase text-base tracking-widest text-gray-300 hidden'>
             Développons de super projets ensemble !{' '}
             <span className='text-[20px] md:text-[32px]'>🚀</span>
           </p>
-          <h1 className='py-8 text-[#40B9FF]'>Anna Boval</h1>
+          <h1 className='py-4 text-[#40B9FF]'>Anna Boval</h1>
           <div className='typewritter'>
-            <div className='text-[22px] font-bold py-3 text-gray-300'>
+            <div className='py-4 text-[24px] font-bold text-gray-300'>
               <Typewriter
                 options={{
                   strings: [
@@ -36,14 +36,14 @@ const Main = () => {
           <div >
             <p className='py-2 text-gray-300 max-w-[90%] m-auto text-[20px] '>
             </p>
-            <p className='text-[#96d9ff] text-[24px] max-w-[80%] m-auto font-bold py-2'>
-              Besoin de renfort dans vos équipes de dév ? <br />
+            <p className='text-[#96d9ff] text-[24px] max-w-[80%] m-auto font-bold'>
+              Besoin de renfort dans vos équipes de dév ? <span className='text-[18px] md:text-[24px]'>🚀</span> 
             </p>
               <p className='py-2 max-w-[80%] m-auto text-[20px]'> 
               3 bonnes raisons de me recruter en  <span className='font-bold text-[#47bbff]'>alternance</span> ou un{' '}
               <span className='font-bold text-[#47bbff]'>stage</span> : 
               </p> 
-              <p>
+              <p className='pb-2'>
               Je participerai activement au développement de vos sites et applis responsives <br />
               Je proposerai des solutions, serai à l'écoute et solidaire avec l'équipe <br />
               Je me formerai avec sérieux pour réussir dans les différentes missions que vous me confierez <br />
