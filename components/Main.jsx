@@ -34,7 +34,7 @@ const Main = () => {
             </div>
           </div>
           <div >
-            <p className='py-4 text-gray-300 max-w-[90%] m-auto text-[20px] '>
+            <p className='py-2 text-gray-300 max-w-[90%] m-auto text-[20px] '>
             </p>
             <p className='text-[#96d9ff] text-[24px] max-w-[80%] m-auto font-bold py-2'>
               Besoin de renfort dans vos équipes de dév ? <br />

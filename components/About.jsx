@@ -8,17 +8,17 @@ const About = () => {
     <div id='about' className='w-full px-4 sm:px-12 py-24 '>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl font-extrabold tracking-widest text-[#40B9FF]'>
+          <p className='uppercase text-xl font-extrabold tracking-widest '>
             À propos de moi
           </p>
           <h2 className='py-4'>Qui suis-je ? </h2>
-          <p className='py-2 text-gray-300'>
+          <p className='py-2 text-lg font-bold text-[#a58cff]'>
             Développeuse curieuse, créative et rigoureuse 👩‍💻
           </p>
           <p className='py-2 text-gray-300'>
             Ancienne conseillère bancaire, j'ai décidé de faire un virage à 360°
             et me reconvertir dans ce métier incroyable qu'est{' '}
-            <span className='font-bold text-[#40B9FF]'>développeur web et mobile </span>{' '}! 
+            <span className='font-bold text-[#a9a4ff]'>développeur web et mobile </span>{' '}! 
             <br />
             Pour me former, j'ai choisi tout d'abord la Wild Code School avec une formation intensive "développeur web et
             mobile", <strong>certifiée BAC+2.</strong><br />
@@ -45,7 +45,7 @@ const About = () => {
           </p>
           <div className='py-6'>
             <Link href='/#projects'>
-              <a className=' text-gray-300 text-[20px] font-bold cursor-pointer mb-8 hover:text-[24px]'>
+              <a className='text-[#a9a4ff] text-[18px] font-bold cursor-pointer mb-8 hover:text-[24px]'>
                 Jetez un oeil à mes projets ! 👀
               </a>
             </Link>
