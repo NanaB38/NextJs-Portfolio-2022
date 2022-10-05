@@ -40,8 +40,8 @@ const Main = () => {
               Besoin de renfort dans vos équipes de dév ? <span className='text-[18px] md:text-[24px]'>🚀</span> 
             </p>
               <p className='py-2 max-w-[80%] m-auto text-[20px]'> 
-              3 bonnes raisons de me recruter en  <span className='font-bold text-[#47bbff]'>alternance</span> ou un{' '}
-              <span className='font-bold text-[#47bbff]'>stage</span> : 
+              3 bonnes raisons de me recruter en  <span className='font-bold text-[#47bbff]'>alternance</span> ou 
+              en <span className='font-bold text-[#47bbff]'>stage</span> : 
               </p> 
               <p className='pb-2'>
               Je participerai activement au développement de vos sites et applis responsives <br />
