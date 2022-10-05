@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full h-screen px-4 sm:px-12 py-20'>
       <div className='m-auto max-w-[1240px]'>
-        <p className='text-xl tracking-wider font-extrabold uppercase text-[#37B6FF] pb-5'>
+        <p className='text-xl tracking-wider font-extrabold uppercase text-[#71ff61] pb-5'>
           Contact
         </p>
         <div className='grid lg:grid-cols-5 gap-8'>
@@ -50,8 +50,8 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Contactez-moi ! </p>
-                <div className='flex items-center justify-between py-4'>
+                <p className='py-8'>Contactez-moi ! 📱 </p>
+                <div className='flex items-center justify-between mt-16'>
                   <Link href='https://www.linkedin.com/in/anna-boval-1a5407136/'>
                     <a
                       className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
@@ -130,22 +130,21 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>
-                    Objet
+                    Objet </label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-500 text-gray-700 bg-[#c0dbeb]'
                       type='text'
                       name='subject'
-                      required
                       onChange={(e) => setSubject(e.target.value)}
                       value={subject}
                     />{' '}
-                  </label>
+                  
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-500 text-gray-700 bg-[#c0dbeb]'
-                    rows='10'
+                    rows='4'
                     name='message'
                     required
                     onChange={(e) => setMessage(e.target.value)}
