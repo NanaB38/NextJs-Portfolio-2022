@@ -19,7 +19,7 @@ const Main = () => {
           </p>
           <h1 className='py-8 text-[#40B9FF]'>Anna Boval</h1>
           <div className='typewritter'>
-            <h2 className='py-3 text-gray-300'>
+            <div className='text-[22px] font-bold py-3 text-gray-300'>
               <Typewriter
                 options={{
                   strings: [
@@ -31,34 +31,28 @@ const Main = () => {
                   loop: true,
                 }}
               />
-            </h2>
+            </div>
           </div>
-          <div className='mt-5'>
-            <p className='py-4 text-gray-300 max-w-[90%] m-auto text-[20px] hidden'>
-              Je suis développeuse Full Stack junior et j'aime <br />
-              coder des projets responsive, beaux et fonctionnels !
-              <span className=' ml-2 '>📱</span>
+          <div >
+            <p className='py-4 text-gray-300 max-w-[90%] m-auto text-[20px] '>
             </p>
-            <p className='py-4 text-gray-300 max-w-[70%] m-auto'>
-              Ayant terminé la formation "Développeur web et mobile" à la{' '}
-              <Link href='https://www.wildcodeschool.com/fr-FR/campus/lyon'>
-                <a
-                  className='text-[#3da7e4] font-bold hover:text-[#abe0ff]'
-                  target='_blank'
-                >
-                  Wild Code School
-                </a>
-              </Link>
-              , je souhaite continuer mon apprentissage avec une{' '}
-              <span className='font-bold'>alternance</span> en Bachelor 3 ou un{' '}
-              <span className='font-bold'>stage</span> à partir de septembre,
-              dans une entreprise qui partage mes valeurs.
+            <p className='text-[#96d9ff] text-[24px] max-w-[80%] m-auto font-bold py-2'>
+              Besoin de renfort dans vos équipes de dév ? <br />
             </p>
+              <p className='py-2 max-w-[80%] m-auto text-[20px]'> 
+              3 bonnes raisons de me recruter en  <span className='font-bold text-[#47bbff]'>alternance</span> ou un{' '}
+              <span className='font-bold text-[#47bbff]'>stage</span> : 
+              </p> 
+              <p>
+              Je participerai activement au développement de vos sites et applis responsives <br />
+              Je proposerai des solutions, serai à l'écoute et solidaire avec l'équipe <br />
+              Je me formerai avec sérieux pour réussir dans les différentes missions que vous me confierez <br />
+           </p>
+
             <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
               Hi, I’m a junior full-stack web developer and I love building
               beautiful and responsive digital projects! <br />
-              Currently, I’m studying in Wild Code School and I'm focused on
-              finding a sandwich degree or an internship from September.
+              Currently, I'm focused on finding a sandwich degree or an internship from September
             </p>
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>

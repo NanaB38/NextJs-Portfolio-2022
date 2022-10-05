@@ -18,36 +18,34 @@ const About = () => {
           <p className='py-2 text-gray-300'>
             Ancienne conseillère bancaire, j'ai décidé de faire un virage à 360°
             et me reconvertir dans ce métier incroyable qu'est{' '}
-            <span className='font-bold'>développeur web et mobile ! </span>{' '}
+            <span className='font-bold text-[#40B9FF]'>développeur web et mobile </span>{' '}! 
             <br />
-            Pour me former, j'ai choisi tout d'abord la Wild Code School, qui
-            propose une formation intensive de 5 mois "développeur web et
-            mobile", certifiée BAC +2. <br />
-            Cette formation repose sur la théorie mais surtout la pratique
-            intensive : maquettage, intégration et développement de projets en
-            Javascript/ React pour la partie front-end et Node.js pour le
+            Pour me former, j'ai choisi tout d'abord la Wild Code School avec une formation intensive "développeur web et
+            mobile", <strong>certifiée BAC+2.</strong><br />
+            Cette formation repose essentiellement sur la pratique
+            intensive en <strong>méthode agile</strong> : maquettage, développement de projets en
+            <strong> Js / React / Next js </strong> pour la partie front-end et <strong>Node.js</strong> pour le
             back-end. <br /> J'ai appris également à modéliser les bases de
-            données Sql avec Express et Prisma, créer des API REST et à tester
-            le code. <br />
+            données SQL avec Express et Prisma, créer des API REST et à tester le code. <br />
             Aujourd'hui, j'ai décidé de poursuivre mon apprentissage avec un
-            Bachelor "Concepteur-Developpeur d'applications" (certifié BAC+3/4)
-            chez MyDigitalSchool, à Lyon, afin de renforcer mes compétences
-            techniques et mon autonomie.
+            <strong> Bachelor "Concepteur Developpeur d'Applications"</strong> (certifié BAC+3/4), 
+            en alternance au rythme de 2-3 semaines en entreprise, afin de renforcer mes compétences 
+            techniques et me spécialiser sur un/des framework(s).
           </p>
           <p className='py-2 text-gray-300'>
             De nature curieuse, j'ai un attraît pour le digital depuis mon
-            enfance et j'adore apprendre au quotidien ! <br /> Ayant toujours aimé dessiner, 
-            peindre et créer, j'ai développé une sensibilité créative.
+            enfance et j'adore apprendre au quotidien ! <br /> 
+            Aussi, j'ai toujours aimé créer et dessiner, j'ai donc développé une 
+            sensibilité créative.
             <br />
             Enfin, j'ai une appétence pour les challenges, le sport (rando,
             vélo, ski, danse) et les jeux en équipe. <br />
-            C'est donc naturellement que je me suis orientée vers ce métier de
-            développeur web, à la fois technique, créatif et stimulant
-            intellectuellement.
+            C'est donc naturellement que je me suis orientée vers ce métier qui est à la fois technique, 
+            créatif et stimulant intellectuellement ! 🤓
           </p>
           <div className='py-6'>
             <Link href='/#projects'>
-              <a className=' text-gray-300 font-bold cursor-pointer mb-8 hover:text-lg'>
+              <a className=' text-gray-300 text-[20px] font-bold cursor-pointer mb-8 hover:text-[24px]'>
                 Jetez un oeil à mes projets ! 👀
               </a>
             </Link>
